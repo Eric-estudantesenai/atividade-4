@@ -1,0 +1,41 @@
+        label,
+        input {
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            border-left: 0 none;
+            border-top: 0 none;
+            border-right: 0 none;
+        }
+
+        input[type="number"]:focus {
+            border-left: 0 none;
+            border-top: 0 none;
+            border-right: 0 none;
+            outline: 0;
+            background-color: #dddddd;
+            transition: 0.1s;
+        }
+
+        input[type="button"] {
+            color: black;
+            padding: 8px 15px 8px 15px;
+            background-color: #dddddd;
+            border: 0 none;
+            border-radius: 2px;
+        }
+
+        #btCalcular:focus {
+            border: 0 none;
+            outline: 0;
+            box-shadow: 0 none;
+            background-color: #d7d7d779;
+            transition: 0.1s;
+        }
+
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+   
